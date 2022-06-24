@@ -57,11 +57,12 @@ body {
 }
 
 .hero-content {
-    width: 100%;
+    width: 75%;
     max-width: 1000px;
     text-align: center;
-    padding: 24px;
+    padding: 105px 0;
     margin: 0 auto;
+    justify-items: center;
 }
 
 .aboutme-container {
@@ -103,9 +104,41 @@ body {
 }
 
 .projects-item {
-    
+
 }
 
+.contactme-container {
+    background: #29326a;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items:stretch;
+    width: 100%;
+    padding: 40px;
+}
+
+.contactme-content {
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1000px; 
+    padding: 12px;
+}
+.contactlinks {
+    color: Black;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+} 
+
+a {
+    color: orange;
+    display: flex;
+    justify-content: center;
+
+}
 .footer-container {
     background: #1b1b27;
     display: flex;
@@ -178,9 +211,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
