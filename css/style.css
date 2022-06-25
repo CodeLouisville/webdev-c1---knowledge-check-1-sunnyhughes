@@ -57,12 +57,11 @@ body {
 }
 
 .hero-content {
-    width: 75%;
+    width: 100%;
     max-width: 1000px;
     text-align: center;
-    padding: 105px 0;
+    padding: 24px;
     margin: 0 auto;
-    justify-items: center;
 }
 
 .aboutme-container {
@@ -104,40 +103,7 @@ body {
 }
 
 .projects-item {
-
-}
-
-.contactme-container {
-    background: #29326a;
-    display: flex;
-    flex-direction: column;
-    justify-content:start;
-    align-items:stretch;
-    width: 100%;
-    padding: 40px;
-}
-
-.contactme-content {
-    color: white;
-    display: flex;
-    justify-content:space-between;
-    align-items: stretch;
-    width: 100%;
-    max-width: 1000px; 
-    padding: 12px;
-}
-.contactlinks {
-    color: Black;
-    display:flex;
-    justify-content: center;
-    align-items: stretch;
-} 
-
-a {
-    color: orange;
-    display: flex;
-    justify-content: center;
-
+    
 }
 
 .footer-container {
@@ -212,9 +178,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #74b44a;
+    background: #333333;
     color: #F1F1F1;
-    border: 2px solid #74b44a;
+    border: 2px solid #666666;
 }
 
 .btn, .btn:visited  {
